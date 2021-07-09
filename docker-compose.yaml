@@ -1,0 +1,17 @@
+  
+version: "3"
+services:
+  rest-api:
+    build: app-backend
+    entrypoint: ./.docker/entrypoint.sh
+    ports: 
+      - 3000:3000
+    volumes:
+      - ./app-backend:/home/node/app
+  react-frontend:
+    build: app-frontend
+    entrypoint: ./.docker/entrypoint.sh
+    ports: 
+      - 3001:3001
+    volumes:
+      - ./app-frontend:/home/node/app
