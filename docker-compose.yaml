@@ -12,6 +12,6 @@ services:
     build: app-frontend
     entrypoint: ./.docker/entrypoint.sh
     ports: 
-      - 3001:3001
+      - 3001:3000
     volumes:
       - ./app-frontend:/home/node/app
