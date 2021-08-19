@@ -9,7 +9,7 @@ In this challenge, I work with both the frontend and the backend to consolidate 
 - When accessing http://localhost:3001 the React application needs to consume and list "routes" from the Nest.js endpoint: http://localhost:3000/routes.
 - The endpoint http://localhost:3000/routes needs to return 5 routes with the following data: title - route title, startPosition - contains latitude and longitude, endPosition - contains latitude and longitude
 
-## Steps:
+## How to use?
 1) Clone the repo and go to the folder
 2) Run `sudo run.sh` and wait a few seconds
 3) Access `localhost:3001` in your browser
